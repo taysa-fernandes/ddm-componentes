@@ -1,0 +1,120 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    navbar: {
+        backgroundColor: '#F0F0F0', 
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        padding: 10,
+        marginTop: 50, 
+    },
+    navText: {
+        color: '#0B0B0B', 
+        fontSize: 30,
+        fontFamily: 'Arial',
+        fontWeight: 'bold',
+    },
+    profileSection: {
+        backgroundColor: '#ffffff',
+        borderRadius: 10,
+        padding: 20,
+        marginVertical: 10,
+        marginLeft: 10,
+        marginRight: 10,
+    },
+    section: {
+        backgroundColor: '#ffffff',
+        borderRadius: 10,
+        padding: 20,
+        marginLeft: 10,
+        marginRight: 10,
+        height: 80,
+    },
+    profileContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 10,
+    },
+    profileImage: {
+        width: 50,
+        height: 50,
+        borderRadius: 25,
+        marginRight: 10,
+        marginLeft: 60,
+    },
+    profileName: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#635D90',
+        marginLeft: 100,
+    },
+    line: {
+        borderBottomWidth: 1,
+        borderBottomColor: '#ccc',
+        marginVertical: 10,
+    },
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    viewProfileButton: {
+        backgroundColor: '#ccc',
+        padding: 10,
+        borderRadius: 5,
+        flex: 1,
+        marginRight: 10,
+    },
+    addUserButton: {
+        backgroundColor: 'green',
+        padding: 10,
+        borderRadius: 5,
+        flex: 1,
+    },
+    buttonText: {
+        color: 'gray',
+        textAlign: 'center',
+        fontWeight: 'bold',
+    },
+    buttonText2: {
+        color: 'white',
+        textAlign: 'center',
+        fontWeight: 'bold',
+    },
+    divText: {
+        minWidth: 100,
+    },
+    divButtons: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        gap: 15,
+        width:80,
+    },
+    text: {
+        color: "black",
+        fontSize: 14,
+    },
+    addUser: {
+        backgroundColor: '#DEE0DF',
+        padding: 5,
+    },
+    divAvatar: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        alignItems: "center",
+        gap: 15,
+      },
+    card: {
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-around",
+        marginTop: 10,
+        backgroundColor: 'white',
+        minWidth: "85%",
+        minHeight: 60,
+        marginLeft:10,
+        marginRight:10,
+    },
+  });
